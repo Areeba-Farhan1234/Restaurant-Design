@@ -1,0 +1,289 @@
+.bgIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.chefsWord1,
+.imageIcon {
+  position: relative;
+  z-index: 1;
+}
+.imageIcon {
+  height: 789px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 412px;
+}
+.chefsWord1 {
+  letter-spacing: 0.04em;
+  line-height: 130%;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 117px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  width: 40px;
+  position: relative;
+  object-fit: contain;
+}
+.vectorIcon {
+  align-self: stretch;
+  max-height: 100%;
+  display: none;
+  min-height: 9px;
+}
+.vectorIcon1 {
+  height: 9px;
+}
+.spoon {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.whatWeBelieve {
+  margin: 0;
+  position: relative;
+  font-size: var(--h2-64px-cormorant-upright-size);
+  letter-spacing: 0.03em;
+  line-height: 130%;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--dcca87);
+  z-index: 1;
+}
+.chefsWordParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  color: var(--ffffff);
+}
+.icon,
+.loremIpsumDolor {
+  position: relative;
+  z-index: 1;
+}
+.icon {
+  height: 40px;
+  width: 47px;
+  min-height: 40px;
+}
+.loremIpsumDolor {
+  letter-spacing: 0.04em;
+  line-height: 175%;
+  font-style: italic;
+}
+.loremIpsumDolorSitAmetCoWrapper,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loremIpsumDolorSitAmetCoWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  min-width: 331px;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.auctorSitIaculis {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 175%;
+  font-style: italic;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--body-16px-regular-size);
+  font-family: var(--body-16px-regular);
+}
+.chefFounder,
+.kevinLuo {
+  position: relative;
+  letter-spacing: 0.04em;
+  z-index: 1;
+}
+.kevinLuo {
+  margin: 0;
+  font-size: inherit;
+  line-height: 130%;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.chefFounder {
+  font-size: var(--body-16px-regular-size);
+  line-height: 175%;
+  font-family: var(--body-16px-regular);
+  color: var(--aaaaaa);
+  display: inline-block;
+  min-width: 127px;
+}
+.kevinLuoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--h4-32px-cormorant-upright-size);
+  color: var(--dcca87);
+}
+.kevinLuo1 {
+  margin: 0;
+  width: 235px;
+  position: relative;
+  font-size: var(--h2-64px-cormorant-upright-size);
+  letter-spacing: 0.04em;
+  line-height: 130%;
+  font-weight: 400;
+  font-family: var(--font-sofia-sans);
+  display: inline-block;
+  z-index: 1;
+}
+.chefsWord,
+.chefsWordInner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
+.chefsWord,
+.chefsWordInner {
+  box-sizing: border-box;
+}
+.chefsWordInner {
+  width: 570px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-68xl) 0 0;
+  min-width: 570px;
+}
+.chefsWord {
+  margin-right: -13px;
+  margin-bottom: 677.5px;
+  width: 1920px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-109xl) var(--padding-291xl);
+  position: relative;
+  gap: var(--gap-77xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--h5-23px-cormorant-upright-size);
+  color: var(--aaaaaa);
+  font-family: var(--h4-32px-cormorant-upright);
+}
+@media screen and (max-width: 1800px) {
+  .chefsWordInner {
+    flex: 1;
+  }
+  .chefsWord {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .chefsWordInner,
+  .imageIcon {
+    min-width: 100%;
+  }
+  .chefsWord {
+    gap: var(--gap-29xl);
+    padding: var(--padding-64xl) var(--padding-136xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .whatWeBelieve {
+    font-size: var(--font-size-32xl);
+    line-height: 67px;
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .kevinLuo {
+    font-size: var(--font-size-7xl);
+    line-height: 33px;
+  }
+  .kevinLuo1 {
+    font-size: var(--font-size-32xl);
+    line-height: 67px;
+  }
+  .frameParent {
+    gap: var(--gap-13xl);
+  }
+  .chefsWordInner {
+    padding-top: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+  .chefsWord {
+    gap: var(--gap-5xl);
+    padding: var(--padding-35xl) var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chefsWord1 {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .whatWeBelieve {
+    font-size: var(--font-size-19xl);
+    line-height: 50px;
+  }
+  .kevinLuo {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .kevinLuo1 {
+    font-size: var(--font-size-19xl);
+    line-height: 50px;
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .chefsWord {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

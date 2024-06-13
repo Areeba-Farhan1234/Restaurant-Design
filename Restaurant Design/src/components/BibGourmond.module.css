@@ -1,0 +1,51 @@
+.bibGourmondChild {
+  height: 79px;
+  width: 79px;
+  position: relative;
+}
+.bibGourmond1,
+.loremIpsumDolor {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.bibGourmond1 {
+  line-height: 130%;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  font-size: var(--body-16px-regular-size);
+  line-height: 175%;
+  font-family: var(--body-16px-regular);
+  color: var(--aaaaaa);
+}
+.bibGourmond,
+.bibGourmondParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.bibGourmond {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  min-width: 196px;
+  text-align: left;
+  font-size: var(--h5-23px-cormorant-upright-size);
+  color: var(--dcca87);
+  font-family: var(--h4-32px-cormorant-upright);
+}
+@media screen and (max-width: 450px) {
+  .bibGourmond1 {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .bibGourmond {
+    gap: var(--gap-base);
+  }
+}
